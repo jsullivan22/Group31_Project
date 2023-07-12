@@ -14,6 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license='GNU',
     url="",
+    install_reqs = parse_requirements('requirements.txt'),
     packages=setuptools.find_packages(),
     classifiers=[
         "Natural Language :: English",
