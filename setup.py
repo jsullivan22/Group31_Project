@@ -2,7 +2,7 @@ import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-
+REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 setuptools.setup(
     name="DummySignalGen", 
     version="0.0.1",
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license='GNU',
     url="",
-    install_reqs = parse_requirements('requirements.txt'),
+    install_reqs = REQUIREMENTS,
     packages=setuptools.find_packages(),
     classifiers=[
         "Natural Language :: English",

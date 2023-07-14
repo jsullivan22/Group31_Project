@@ -18,11 +18,12 @@ class SignalMaker(object):
         signal = self.amp*scipy.signal.chirp(self.t, 1, self.t[-1], self.freq)
 
         return signal
-    
-ts = np.linspace(0, 10, 100)
-test = SignalMaker(2, 100, ts).makeSignal()
-# dummy = np.ones(100)
-# plt.scatter(ts, test)
-# plt.show()
 
-print(test)
+if __name__ == "__main__": 
+    ts = np.linspace(0, 10, 100)
+    test = SignalMaker(2, 100, ts).makeSignal()
+    # dummy = np.ones(100)
+    # plt.scatter(ts, test)
+    # plt.show()
+
+    print(test)

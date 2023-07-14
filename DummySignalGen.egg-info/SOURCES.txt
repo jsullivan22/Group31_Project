@@ -1,0 +1,6 @@
+README.md
+setup.py
+DummySignalGen.egg-info/PKG-INFO
+DummySignalGen.egg-info/SOURCES.txt
+DummySignalGen.egg-info/dependency_links.txt
+DummySignalGen.egg-info/top_level.txt
