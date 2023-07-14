@@ -10,6 +10,7 @@ Welcome to DummySignalGen's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   data_generation.rst
 
 
 Indices and tables
